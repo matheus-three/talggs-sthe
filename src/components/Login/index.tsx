@@ -1,9 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import {Field, Form, Formik} from 'formik';
+import Logo from '../../assets/imagens/logo1-web.svg';
 
 import styles from './styles';
-import { Card, CardHeader, CardContent, CardMedia } from '@material-ui/core';
+import { Card, CardContent } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
 
@@ -15,7 +16,8 @@ const Login = () => {
     return (
         <div className={classes.root}>
             <Card className='card'>
-                <CardMedia image="../../assets/imagens/Logo-Web.png" title="" />
+
+                <img src={Logo} alt=""/>
 
                 <CardContent>
                     <Formik
