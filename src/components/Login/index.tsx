@@ -17,7 +17,7 @@ const Login = () => {
         <div className={classes.root}>
             <Card className='card'>
 
-                <img src={Logo} alt=""/>
+                <img className='img' src={Logo} alt=""/>
 
                 <CardContent>
                     <Formik
