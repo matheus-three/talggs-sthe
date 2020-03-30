@@ -37,7 +37,7 @@ const styles = {
                 textTransform: 'uppercase',
                 borderRadius: '30px',
                 border: 'none',
-                color: '#232F40',
+                color: '#2D4F6C',
                 background: 'linear-gradient(to right, #F2A950, #dff2fb, #2D9AA6);',
                 margin: '6% 12%',
             },
